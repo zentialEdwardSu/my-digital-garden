@@ -1,9 +1,10 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "My Digital Garden"
-theme = "hugo-digital-garden-theme"
+theme = "my-digital-garden"
 themesdir = "../../"
 copyright = "Nigalya Ponya ©"
+
 
 
 [params]
@@ -11,6 +12,8 @@ copyright = "Nigalya Ponya ©"
   description = "Red panda living in the eastern Himalayas."
   initials = "NP"
   googleAnalytics = ""
+  enable_lib = false
+  enbale_Capital_first = false
 
   [[params.social]]
     name = "Twitter"
@@ -31,6 +34,9 @@ copyright = "Nigalya Ponya ©"
     name = "LinkedIn"
     link = "#"
     icon = "fab fa-linkedin-in"
+
+  [[params.posts]]
+    toc = true
 
 
 [menu]
